@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Человек-паук</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <h1>Человек-паук</h1>
+    <nav>
+      <a href="#about">О герое</a>
+      <a href="#powers">Способности</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h2>О Человеке-пауке</h2>
+      <p>Питер Паркер - обычный школьник, который получил суперспособности после укуса радиоактивного паука.</p>
+    </section>
+
+    <section id="powers">
+      <h2>Способности</h2>
+      <ul>
+        <li>Паучье чутье</li>
+        <li>Сверхчеловеческая сила</li>
+        <li>Способность прилипать к стенам</li>
+        <li>Паутина</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <div class="image-grid">
+        <img src="https://i.imgur.com/JxKVpPo.jpeg" alt="Spider-Man">
+        <img src="https://i.imgur.com/2dlzXSy.jpeg" alt="Spider-Man swinging">
+        <img src="https://i.imgur.com/QJ0BZB6.jpeg" alt="Spider-Man in action">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Человек-паук</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
